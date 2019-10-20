@@ -26,6 +26,16 @@ header .intro-text {
 	font-size: 16px;
 	border-radius: 0;
 }
+
+.nav-button {
+	color: #fff;
+	background-color:#fff;
+	border-color: #fff;
+	padding: 10px 20px;
+	margin: 0
+	font-size: 16px;
+	border-radius: 0;
+}
 .intro {
 	display: table;
 	width: 100%;
