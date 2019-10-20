@@ -38,7 +38,7 @@ header .intro-text {
 
 .nav-button {
 	color: #fff;
-	background-color:#fff;
+	background-color: transparent;
 	border-color: #fff;
 	padding: 10px 20px;
 	margin: 0
