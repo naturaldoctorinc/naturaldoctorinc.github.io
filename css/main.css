@@ -17,6 +17,15 @@ header .intro-text {
 	padding-bottom: 200px;
 }
 
+.button {
+	color: #fff;
+	background-color:transparent;
+	border-color: #fff;
+	padding: 10px 20px;
+	margin: 0
+	font-size: 16px;
+	border-radius: 0;
+}
 .intro {
 	display: table;
 	width: 100%;
