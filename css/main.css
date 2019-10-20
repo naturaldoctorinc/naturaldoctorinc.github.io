@@ -41,3 +41,11 @@ header .intro-text {
 .intro .intro-text {
 	max-width: 75%;
 }
+
+
+.navbar-custom {
+	margin-bottom: 0;
+	background-color: #121d1f;
+	border-radius: 0px;
+	padding: 10px 0;
+}
