@@ -1,4 +1,21 @@
 
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #6d6565;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+header .intro-text {
+	padding-top: 300px;
+	padding-bottom: 200px;
+}
 
 .intro {
 	display: table;
