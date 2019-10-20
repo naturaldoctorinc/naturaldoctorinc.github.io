@@ -1,4 +1,18 @@
 
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #6d6565;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+header .intro-text {
+	padding-top: 300px;
+	padding-bottom: 200px;
+}
+
 .intro {
 	display: table;
 	width: 100%;
@@ -9,4 +23,8 @@
 	background: url(../imgs/MovingForest.jpg) no-repeat center top;
 	background-color: #d17b7b;
 
+}
+
+.intro .intro-text {
+	max-width: 75%;
 }
