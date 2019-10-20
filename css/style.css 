@@ -8,8 +8,5 @@
 	color: #fff;
 	background: url(../imgs/MovingForest.jpg) no-repeat center top;
 	background-color: #d17b7b;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+
 }
