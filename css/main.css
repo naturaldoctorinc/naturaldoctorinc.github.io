@@ -54,7 +54,7 @@ header .intro-text {
 
 
 .navbar-custom {
-	position = top;
+	margin-bottom: 0;
 	background-color: #121d1f;
 	border-radius: 0px;
 	padding: 10px 0;
