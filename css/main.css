@@ -13,43 +13,135 @@ h1 {
 }
 
 header .intro-text {
-	padding-top: 300px;
+	padding-top: 200px;
 	padding-bottom: 200px;
 }
+
 
 #nav {
 	z-index: 9999;
 }
-#nav.affix {
-	position: fixed;
-	top: 0;
-	width: 100%
+
+.navbar-center
+{
+	padding:0;
+	margin-top:0;
+	text-align:center !important;
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+
 }
 
-.button {
+.navbar-center li
+{
+	display: inline;
+}
+
+.navbar-center li a
+{
+	display:inline-block;
+	
+}
+
+.navbar-right
+{
+	float: right !important;
+	text-align:right !important;
+	padding:0;
+	margin-top:0;
+	margin-bottom: 0;
+	right: 0;
+	left: auto;
+}
+.navbar-right li
+{
+	
+	display:inline;
+
+}
+.navbar-right li a
+{
+	
+	display:inline-block;
+
+}
+.navbar-left
+{
+	float:left !important;
+	text-align:left;
+	padding:0;
+	margin-top:0;
+	margin-bottom: 0:;
+	left: 0;
+	right: auto;
+
+}
+
+.navbar-left li
+{
+	
+	display:inline;
+		margin-left:0;
+}
+.navbar-left li a
+{
+	
+	display:inline-block;
+
+}
+
+
+
+.navbar-custom {
+	top: 0;
+	margin-bottom: 0;
+	background-color: #121d1f;
+	border-radius: 0px;
+	padding: 10px 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+	padding: 4px 6px;
+	font-size: 30px;
+	color: #fff;
+}
+.navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
+	outline: 0;
+}
+
+.navbar-u1
+{
+	display:inline-block;
+}
+
+
+.btn-default {
 	color: #fff;
 	background-color:transparent;
-	border-color: #fff;
+	border-color: transparent;
 	padding: 10px 20px;
 	margin: 0
 	font-size: 16px;
 	border-radius: 0;
 }
 
-.nav-button {
+.btn-nav {
 	color: #fff;
 	background-color: transparent;
-	border-color: #fff;
 	padding: 10px 20px;
-	margin: 0
+	margin: 0;
+	font-family: Arial;
 	font-size: 16px;
 	border-radius: 0;
+
 }
+
 .intro {
 	display: table;
 	width: 100%;
 	height: auto;
-	padding: 100px 0;
+	padding: 0 0;
 	text-align: center;
 	color: #fff;
 	background: url(../imgs/MovingForest.jpg) no-repeat center top;
@@ -62,9 +154,3 @@ header .intro-text {
 }
 
 
-.navbar-custom {
-	margin-bottom: 0;
-	background-color: #121d1f;
-	border-radius: 0px;
-	padding: 10px 0;
-}

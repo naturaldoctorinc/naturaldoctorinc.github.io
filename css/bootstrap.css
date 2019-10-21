@@ -1,7 +1,7 @@
 /*!
  * Bootstrap v3.3.4 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT ()
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -2990,7 +2990,7 @@ select[multiple].form-group-lg .form-control {
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
-  text-align: center;
+  text-align: left;
   white-space: nowrap;
   vertical-align: middle;
   -ms-touch-action: manipulation;
@@ -4076,7 +4076,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
-    float: left;
+    float: none;
   }
 }
 .navbar-collapse {
@@ -4253,11 +4253,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
     margin: 0;
   }
   .navbar-nav > li {
-    float: left;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4380,7 +4378,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-left: 15px;
   }
 }
-@media (min-width: 768px) {
+
   .navbar-left {
     float: left !important;
   }
@@ -4391,7 +4389,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-right ~ .navbar-right {
     margin-right: 0;
   }
-}
+
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
